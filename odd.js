@@ -1,5 +1,4 @@
-function displayeven(x){
-if(x%2==0)
+
 {
 
 console.log("even");
@@ -8,7 +7,8 @@ console.log("even");
     else{
 
 
-    console.log("odd");}
+    console.log("odd");}function displayeven(x){
+if(x%2==0)
 
     }
     displayeven(20);
