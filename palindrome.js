@@ -6,11 +6,11 @@ while(x>0)
 {
     rem=x%10;
     rev=rev*10+rem;
-    x=x/10
+    x=parseInt(x/10);
 }
 if(rev==y)
 {
-    Console.log("palindrome");
+    console.log("palindrome");
 }else
 {
     console.log("not palindrome");
